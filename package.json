@@ -1,0 +1,28 @@
+{
+  "name": "interact_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakhar0824/interact_api.git"
+  },
+  "author": "Prakhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakhar0824/interact_api/issues"
+  },
+  "homepage": "https://github.com/prakhar0824/interact_api#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "openai": "^4.90.0",
+    "playwright": "^1.51.1"
+  }
+}
